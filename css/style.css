@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin-left: 450px;
+}
+
+.box1 {
+    width: 500px;  
+}
+
+.box2 {
+    width: 503px;
+}
+
+h1 {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-left: 10px
+}
+
+h4 {
+    color: indianred;
+    margin-left: 10px
+}
+
+button {
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    margin-left: 20px;
+}
+
+span {
+    color: indianred;
+}
+
+p {
+    margin-left: 40px
+}
+
+
+
+
+.box2{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to left,rgba(255, 0, 0, 0.507),rgba(0, 128, 0, 0.479)), url(../img/playerunknown-s-battlegrounds-pubg-mobile-royale-pass-s14-skin-set-wallpaper-2560x2048_33.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
